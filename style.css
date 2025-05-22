@@ -1,0 +1,28 @@
+#header {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+    margin: 20px auto;
+}
+
+#box-1 {
+    width: 470px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+#box-1 div img {
+    width: 100%;
+}
+
+#container #box-1 #box-1-1{
+    display: flex;
+    flex-direction: row;
+
+}
